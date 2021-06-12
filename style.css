@@ -1,0 +1,113 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  max-width: 100vw;
+}
+
+@media (min-width: 360px) {
+  .container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+.heading {
+  font-family: "Inconsolata";
+  font-size: 24px;
+  letter-spacing: -0.08em;
+
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.scarecrow {
+  margin-right: 30px;
+}
+
+.scarecrow img {
+  width: 539.22px;
+}
+
+.text {
+  margin-left: 30px;
+}
+
+.text h2 {
+  font-family: "Space Mono";
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.text p {
+  font-family: "Space Mono";
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.text button {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+}
+
+.text a {
+  font-family: "Space Mono";
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 50px auto;
+  width: 100%;
+  text-align: center;
+
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .scarecrow {
+    margin-right: 0;
+  }
+
+  .scarecrow img {
+    width: 286.83px;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+}
